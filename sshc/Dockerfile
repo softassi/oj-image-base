@@ -1,6 +1,6 @@
 FROM alpine
 
-RUN apk -U add nodejs npm python3 openssh-client
+RUN apk -U add openssh-client
 
 RUN adduser -S judge
 
