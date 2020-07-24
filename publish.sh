@@ -1,4 +1,4 @@
-docker login -u jihuayu123 -p $DOCKER_HUB_TOKEN
+# docker login -u jihuayu123 -p $DOCKER_HUB_TOKEN
 
 docker build -t softassi/sshc sshc
 docker build -t softassi/sshc-ndoejs sshc-ndoejs
