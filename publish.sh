@@ -1,7 +1,7 @@
 # docker login -u jihuayu123 -p $DOCKER_HUB_TOKEN
 
 docker build -t softassi/sshc sshc
-docker build -t softassi/sshc-ndoejs sshc-ndoejs
+docker build -t softassi/sshc-nodejs sshc-nodejs
 docker build -t softassi/sshc-python3 sshc-python3
 docker build -t softassi/sshd sshd
 docker build -t softassi/sshd-g++ sshd-g++
