@@ -1,4 +1,4 @@
 FROM softassi/sshd
 
 
-RUN apk -U add gcc
+RUN apk -U add gcc g++

@@ -21,7 +21,6 @@ jobs:
         docker build -t softassi/sshc-nodejs sshc-nodejs
         docker build -t softassi/sshc-python3 sshc-python3
         docker build -t softassi/sshd sshd
-        docker build -t softassi/sshd-g++ sshd-g++
         docker build -t softassi/sshd-gcc sshd-gcc
         docker build -t softassi/sshd-clang sshd-clang
         docker build -t softassi/sshd-go sshd-go
@@ -34,7 +33,6 @@ jobs:
         docker push softassi/sshc-nodejs
         docker push softassi/sshc-python3
         docker push softassi/sshd
-        docker push softassi/sshd-g++
         docker push softassi/sshd-gcc
         docker push softassi/sshd-clang
         docker push softassi/sshd-go
