@@ -1,4 +1,4 @@
-FROM alpine
+FROM softassi/sshc
 
 RUN apk -U add python3
 
